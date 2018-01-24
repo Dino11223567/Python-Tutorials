@@ -24,7 +24,22 @@ def Printer (str):
 
 Printer("Oh wow! I am not really different")
 
-#Of course that will be too simple
+#There can be up to multiple parameters inside a function 
+
+def Two (list_name, items):
+    list_name = []
+    list_name.append(items)
+    
+#This will allow you to add new things to different lists
+#Last but not least, You can have functions within functions
+
+def function_eater(function):
+    Tutorial()
+    function
+function_eater(Printer("HUH"))
+
+    
+
 
 
 
